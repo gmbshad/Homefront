@@ -9779,7 +9779,7 @@ __metadata:
     source-map-url: 0.4.1
     superstruct: 1.0.3
     systemjs: 6.14.1
-    tar: 6.1.15
+    tar: 6.2.1
     terser-webpack-plugin: 5.3.9
     tinykeys: 2.1.0
     ts-lit-plugin: 2.0.0-pre.1
@@ -14917,7 +14917,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:6.1.15, tar@npm:^6.1.11, tar@npm:^6.1.2":
+"tar@npm:6.2.1":
+  version: 6.2.1
+  resolution: "tar@npm:6.2.1"
+  dependencies:
+    chownr: ^2.0.0
+    fs-minipass: ^2.0.0
+    minipass: ^5.0.0
+    minizlib: ^2.1.1
+    mkdirp: ^1.0.3
+    yallist: ^4.0.0
+  checksum: f1322768c9741a25356c11373bce918483f40fa9a25c69c59410c8a1247632487edef5fe76c5f12ac51a6356d2f1829e96d2bc34098668a2fc34d76050ac2b6c
+  languageName: node
+  linkType: hard
+
+"tar@npm:^6.1.11, tar@npm:^6.1.2":
   version: 6.1.15
   resolution: "tar@npm:6.1.15"
   dependencies:
